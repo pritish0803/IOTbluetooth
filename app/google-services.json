@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "856854788068",
+    "firebase_url": "https://conbluetooth-f8b2e.firebaseio.com",
+    "project_id": "conbluetooth-f8b2e",
+    "storage_bucket": "conbluetooth-f8b2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856854788068:android:8b985cf9624c9226",
+        "android_client_info": {
+          "package_name": "com.example.pritishgupta.conbluetooth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856854788068-q2jdkmjso0akbrl72ccsird1lapk0b4h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pritishgupta.conbluetooth",
+            "certificate_hash": "1c27e9324a664e8ab48e2e6ec1847c103d57006e"
+          }
+        },
+        {
+          "client_id": "856854788068-28jsa2mhli9e1bp64tm2smvu7gjjcmm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_jQhL1smtphwpfmOgcVPXw25yEzqtGOg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856854788068-28jsa2mhli9e1bp64tm2smvu7gjjcmm5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
