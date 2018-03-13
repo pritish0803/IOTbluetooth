@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pritishgupta.conbluetooth.Connection">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="63dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="40dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_shape"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="48dp"
+        android:text="ON" />
+
+    <Button
+        android:id="@+id/discover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/scan"
+        android:layout_alignStart="@+id/scan"
+        android:layout_below="@+id/scan"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/edit_shape"
+        android:text="Discoverable" />
+
+    <Button
+        android:id="@+id/off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/edit_shape"
+        android:layout_alignTop="@+id/scan"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:text="OFF" />
+
+    <Button
+        android:id="@+id/pairedBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/mLED2"
+        android:layout_alignRight="@+id/mLED2"
+        android:layout_alignTop="@+id/discover"
+        android:background="@drawable/edit_shape"
+        android:text="Paired deivices" />
+
+    <Button
+        android:id="@+id/mLED1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/discover"
+        android:layout_alignStart="@+id/discover"
+        android:layout_below="@+id/discover"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/edit_shape"
+        android:text="LED On" />
+
+    <Button
+        android:id="@+id/mLED2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/off"
+        android:background="@drawable/edit_shape"
+        android:layout_alignRight="@+id/off"
+        android:layout_alignTop="@+id/mLED1"
+        android:text="LED Off" />
+
+    <ListView
+        android:id="@+id/devicesListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mLED1"
+        android:layout_marginTop="49dp" />
+
+</RelativeLayout>
